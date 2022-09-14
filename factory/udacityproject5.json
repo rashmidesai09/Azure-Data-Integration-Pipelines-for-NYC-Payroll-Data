@@ -1,0 +1,9 @@
+{
+	"name": "udacityproject5",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "addfc698-176e-4d2d-bbd6-7538ce1f4295",
+		"tenantId": "9b7cbd77-6d6b-4879-8aba-63d7dfb18472"
+	}
+}
