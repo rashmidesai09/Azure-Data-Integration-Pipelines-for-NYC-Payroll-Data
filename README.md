@@ -25,6 +25,7 @@ Two primary objectives:
 3. SQL Database to store the current year of the payroll data is created
    SQL Database resource named db_nycpayroll is created
    Table called NYC_Payroll_Data created in db_nycpayroll in the Azure Query Editor with this SQL script
+   
    <img width="358" alt="image" src="https://user-images.githubusercontent.com/97893144/194109808-277dac7f-4996-46be-84f8-3738f21923cf.png">
 
 4. Synapse Analytics workspace is created
@@ -32,13 +33,19 @@ Two primary objectives:
    Below tables are created- Emplyee Master Data, Job Title , Agency Master, Payroll transaction data
    
    <img width="274" alt="image" src="https://user-images.githubusercontent.com/97893144/194113605-67fad80d-0784-4e73-a02e-cd3acc0b95bf.png">  
+   
    <img width="274" alt="image" src="https://user-images.githubusercontent.com/97893144/194113682-0dbcab0d-9eb5-4859-8ea0-4f6bc25ae5c4.png">
+   
    <img width="317" alt="image" src="https://user-images.githubusercontent.com/97893144/194114021-bcdfa029-4919-42e9-91ab-243b505eb3f9.png">
+   
    <img width="329" alt="image" src="https://user-images.githubusercontent.com/97893144/194114079-54a69d88-0436-4b30-96dc-16389233e6d1.png">
    
 ### Step 2: Linked Services creation
 
-1. Linked Service for Azure Data Lake, SQL Database that has the current (2021) data and Synapse Analytics is created.
+1. Linked Service for Azure Data Lake, SQL Database that has the current (2021) data and Synapse Analytics is created. See below screenshot
+
+![image](https://user-images.githubusercontent.com/97893144/194121105-a169400f-3491-4a13-a45f-44a48a69aa3c.png)
+
 
 ### Step 3: Datasets creation in Azure Data Factory 
 
@@ -58,6 +65,16 @@ Two primary objectives:
 4. Data flow created to load 2021 data from SQL DB to Synapse Analytics
 5. Pipelines created for Employee, Title, Agency, and year 2021 Payroll transaction data to Synapse Analytics containing the data flows.
 6. Trigger and monitor the Pipelines
+
+See below screenshot for dataset and dataflow creation in Microsoft Azure
+![image](https://user-images.githubusercontent.com/97893144/194120983-78561847-3176-44a9-9385-e4639414adbc.png)
+
+See below screenshot for pipeline creation
+<img width="817" alt="image" src="https://user-images.githubusercontent.com/97893144/194121357-eadc76e3-afe6-4ac9-b059-cc648ce645c4.png">
+
+See below screenshot for pipeline run
+![image](https://user-images.githubusercontent.com/97893144/194121546-49e03200-ac00-40d8-a31f-6f596f228b31.png)
+
 
 ### Step 5: Data Aggregation and Parameterization
 
