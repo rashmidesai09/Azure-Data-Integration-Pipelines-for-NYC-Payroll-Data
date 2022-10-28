@@ -1,7 +1,7 @@
 # Azure-Data-Integration-Pipelines-for-NYC-Payroll-Data
 
 ## Overview 
-This projects creates data pipelines for a  Data Analytics platform that are dynamic, can be automated, and monitored for efficient operation. The source data resides in Azure Data Lake Gen2 and is processed in a NYC data warehouse in Azure Synapse Analytics. The source datasets consist of CSV files with Employee master data and monthly payroll data entered by various City agencies.
+This projects creates data pipelines for a  Data Analytics platform that are dynamic, can be automated, and monitored for efficient operation. The source data resides in Azure Data Lake Gen2 and is processed in a NYC data warehouse in Azure Synapse Analytics. The source datasets consist of CSV files with Employee master data and monthly payroll data entered by various City agencies. In other words, take the source data, and create data flows in Azure Data Factory to extract, join, transform, and aggregate New York City’s payroll data, and land it in Azure Synapse Analytics.
 
 Two primary objectives:
 
