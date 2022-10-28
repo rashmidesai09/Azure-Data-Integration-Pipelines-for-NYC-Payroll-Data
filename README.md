@@ -26,19 +26,13 @@ Two primary objectives:
    SQL Database resource named db_nycpayroll is created
    Table called NYC_Payroll_Data created in db_nycpayroll in the Azure Query Editor with this SQL script
    
-   <img width="358" alt="image" src="https://user-images.githubusercontent.com/97893144/194109808-277dac7f-4996-46be-84f8-3738f21923cf.png">
+   <img width="400" alt="image" src="https://user-images.githubusercontent.com/97893144/194109808-277dac7f-4996-46be-84f8-3738f21923cf.png">
 
 4. Synapse Analytics workspace is created
    A new Azure Data Lake Gen2 is created in the Synapse Analytics workspace along with SQL dedicated pool (DW100c as performance level).
    Below tables are created- Emplyee Master Data, Job Title , Agency Master, Payroll transaction data
    
-   <img width="274" alt="image" src="https://user-images.githubusercontent.com/97893144/194113605-67fad80d-0784-4e73-a02e-cd3acc0b95bf.png">  
-   
-   <img width="274" alt="image" src="https://user-images.githubusercontent.com/97893144/194113682-0dbcab0d-9eb5-4859-8ea0-4f6bc25ae5c4.png">
-   
-   <img width="317" alt="image" src="https://user-images.githubusercontent.com/97893144/194114021-bcdfa029-4919-42e9-91ab-243b505eb3f9.png">
-   
-   <img width="329" alt="image" src="https://user-images.githubusercontent.com/97893144/194114079-54a69d88-0436-4b30-96dc-16389233e6d1.png">
+   <img width="400" alt="image" src="https://user-images.githubusercontent.com/97893144/194113605-67fad80d-0784-4e73-a02e-cd3acc0b95bf.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/97893144/194113682-0dbcab0d-9eb5-4859-8ea0-4f6bc25ae5c4.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/97893144/194114021-bcdfa029-4919-42e9-91ab-243b505eb3f9.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/97893144/194114079-54a69d88-0436-4b30-96dc-16389233e6d1.png">
    
 ### Step 2: Linked Services creation
 
