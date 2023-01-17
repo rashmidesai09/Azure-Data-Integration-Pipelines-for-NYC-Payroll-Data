@@ -103,7 +103,7 @@ See below screenshot for pipeline run
    (Created a new Global Parameter (This will be the Parameter at the global pipeline level that will be passed on to the data flow
    In Parameters, selected Pipeline Expression by Choosing the parameter created at the Pipeline level)
    
-- Final step is to Validate, Publish and Trigger the pipeline. Enter the desired value for the parameter.
+- A final pipeline joins Current Fiscal Year PAyroll Data with Historical (2020) data, aggregates it by Year and Department and loads it into a summary table in Synapse. Final step is to Validate, Publish and Trigger the pipeline. Enter the desired value for the parameter.
 
 - Monitor the Pipeline run 
 
