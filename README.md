@@ -66,12 +66,15 @@ The two primary objectives of the project are -
 - Trigger and monitor the Pipelines
 
 See below screenshot for dataset and dataflow creation in Microsoft Azure
+
 ![image](https://user-images.githubusercontent.com/97893144/194120983-78561847-3176-44a9-9385-e4639414adbc.png)
 
 See below screenshot for pipeline creation
+
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/97893144/194121357-eadc76e3-afe6-4ac9-b059-cc648ce645c4.png">
 
 See below screenshot for pipeline run
+
 ![image](https://user-images.githubusercontent.com/97893144/194121546-49e03200-ac00-40d8-a31f-6f596f228b31.png)
 
 
